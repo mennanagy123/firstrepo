@@ -96,7 +96,7 @@ final formkey = GlobalKey<FormState>();
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Have an Account"),
+                    Text("Have an Account?"),
                     TextButton(onPressed: (){
                       Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));
                     },
